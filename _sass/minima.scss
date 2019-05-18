@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: -apple-system, BlinkMacSystemFont, 'Roboto', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    1024px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;
+
+.section-title{
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.site-title {
+    text-align: center;
+    width: 100%;
+}
+
+.site-subtitle, .site-subtitle:visited {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 250;
+    line-height: 20px;
+    letter-spacing: -1px;
+    float: left;
+    color: #545454;
+    margin-bottom: 10px;
+}
+
+#profile_img{
+    width: 20%;
+    vertical-align:middle;
+    overflow:hidden;
+    float:left;
+}
+
+#blurb_text {
+    width: 70%;
+    text-align: justify;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#blurb_text strong {
+    font-size: 1.1em;
+    color: #545454;
+}
+
+#blurb {
+    min-height: 280px;
+    overflow:hidden;
+    text-align: center;
+    width: 95%;
+    margin: 10px auto 0 auto;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.paper_list {
+    list-style: none;
+    margin-left:0px;
+}
+
+.paper_list li {
+    margin-top: 18px;
+}
+
+.paper_title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #545454;
+    margin-bottom: 5px;
+}
+
+.paper_detail {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+.banner_container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.project_title {
+    position: absolute;
+    bottom: 0px;
+    background:rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+.project_title h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.project_banner {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.project_summary {
+    font-weight: 300;
+    font-size: 1.2em;
+    color:white;
+    background: #545454;
+    margin-bottom: 15px;
+    padding: 15px 25px 10px 25px;
+    text-align: center;
+}
+
+.project_featureImg {
+    float: right;
+    max-width: 33%;
+    padding: 15px;
+}
+
+.project_linkBtn {
+    object-fit: contain;
+    max-width:100%;
+    height: 50px;
+}
+
+// image captions 
+img + em { 
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;   
+    padding-top: 10px;
+    display: inline-block;
+}
+
+/*
+START
+PROFILE BUTTONS FROM https://codepen.io/philhoyt/pen/wCIGc
+*/ 
+
+.pill_list {
+    overflow:hidden;
+    text-align: center;
+    width: 95%;
+    margin: 10px auto 12px auto;
+}
+
+.btn:visited {
+    color:#fdfdfd;
+}
+
+.btn{
+    text-decoration:none;
+	color: #fdfdfd;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 15px;
+	line-height:32px;
+	height: auto;
+	display:inline-block;
+	text-align:center;
+	background-color:#3DC0F1;
+}
+
+.btn:hover{
+	background-color:#6ad4fc;
+}
+
+.btn.round{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.btn.pill{
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  width:21%;
+  margin: 0, auto;
+  display: inline-block;
+}
+
+/*
+FINISH
+PROFILE BUTTONS
+*/ 
+
+/* 
+START
+IMAGE GRID FROM
+http://www.menucool.com/ui/responsive-image-grid-with-hover-effect 
+*/
+
+#rig {
+    max-width:1280px;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#fdfdfd;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:50%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:1px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    border:none;
+    transform:scale(1);
+    transition:all 0.6s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #00BCD5 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.3s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.9;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:32%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:1;
+}
+
+@media (max-width: 9000px) {
+    
+    #profile_img{
+        width: 20%;
+        vertical-align:middle;
+        overflow:hidden;
+        float:left;
+    }
+    
+    #rig li {
+        width:50%;
+    }
+}
+
+@media(max-width: 750px) {
+    .rig-text {
+        top: 16%;
+        font-size:17px;
+        padding:0 22px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    #profile_img{
+        width: 18%;
+        overflow:hidden;
+        float:left;
+    }
+
+    #rig li {
+        width:100%;
+    }
+
+    .rig-text {
+        top: 25%;
+        font-size:18px;
+        padding:0 25px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    #profile_img{
+        width: 40%;
+        padding: 0 30% 5% 30%;
+        overflow:hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #blurb_text {
+        width: 95%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .btn.pill{
+        width:70%;
+        margin: 5px 12% 5px 12%
+    }
+
+    #rig li {
+        width:100%;
+    }
+
+    .rig-text {
+        top: 22%;
+        font-size:17px;
+        padding:0 20px;
+    }
+
+    .project_linkBtn {
+        width:100%;
+    }
+
+    .project_title h1 {
+        font-size: 2.5em;
+    }
+}
+
+/*
+END 
+IMAGE GRID FROM
+http://www.menucool.com/ui/responsive-image-grid-with-hover-effect 
+*/
