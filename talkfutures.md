@@ -10,7 +10,7 @@ google: https://play.google.com/store/apps/details?id=uk.ac.ncl.openlab.talkfutu
 apple: https://itunes.apple.com/us/app/talkfutures/id1436172223
 ---
 
-## About TalkFutures ans Strategy 2030
+## About TalkFutures and Strategy 2030
 
 TalkFutures was developed as a component of Strategy 2030, a research project
 within the International Federation of the Red Cross and Red Crescent (IFRC)
