@@ -32,6 +32,17 @@ physical device was designed to fit unobtrusively into a the shelters' bedrooms,
 appearing to be little more than a cork noticeboard with some buttons, which
 could be used to select options in a narrated menu.
 
+## Mooqita
+I worked in the International Computer Science Institute in Berkeley as a
+visiting student researcher during September--November 2017. In this time I
+assisted with the [Mooqita project](https://www.mooqita.org/), which aims to
+give users of massive online learning courses (MOOCs) opportunities to solve
+real-world challenges created by potential employers. During this period I
+worked within a small team to ideate, design and develop a prototype student
+onboarding experience for Mooqita. We also planned and tested a series of
+participant research workshops designed to evaluate the prototype and explore
+how it could be improved.
+
 ## Coaching
 ![Highlighting moments of interest in the Coaching prototype](/assets/img/coaching.png){: .right-image }
 As a Research Associate at Culture Lab, I produced a technology probe called
