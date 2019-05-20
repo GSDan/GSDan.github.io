@@ -23,7 +23,17 @@ which elements of their speech others struggled to understand, and update their
 therapy sessions accordingly. The findings of the study were [published at CHI
 2016](https://doi.org/10.1145/2858036.2858321).
 
+## VoiceBoard
+I produced the client and server-side logic for VoiceBoard, a Raspberry
+Pi-powered peer support platform for people experiencing homelessness.
+Participants living in shelters were given a technology probe, which allowed
+participants to send voice communications to each other anonymously. The
+physical device was designed to fit unobtrusively into a the shelters' bedrooms,
+appearing to be little more than a cork noticeboard with some buttons, which
+could be used to select options in a narrated menu.
+
 ## Coaching
+![Highlighting moments of interest in the Coaching prototype](/assets/img/coaching.png){: .right-image }
 As a Research Associate at Culture Lab, I produced a technology probe called
 'Coaching': a video capture application designed for use by caregivers, parents
 or other gatekeepers. The application users record video and tag sections of
@@ -35,18 +45,6 @@ collected and tagged in the application can be uploaded for review by the
 practitioner on the website. A simple chat client between the app and website
 has been implemented, allowing practitioners to send feedback.
 
-![Schoolchildren design OurPlace activities using a jigsaw activity](/assets/img/coaching.png){: .center-image }
-*Highlighting moments of interest in the Coaching prototype*
-
-## VoiceBoard
-I produced the client and server-side logic for VoiceBoard, a Raspberry
-Pi-powered peer support platform for people experiencing homelessness.
-Participants living in shelters were given a technology probe, which allowed
-participants to send voice communications to each other anonymously. The
-physical device was designed to fit unobtrusively into a the shelters' bedrooms,
-appearing to be little more than a cork noticeboard with some buttons, which
-could be used to select options in a narrated menu.
-
 ## Let's Talk Parks
 I helped design and run a series of workshop activities in the ['Let's Talk
 Parks'](https://letstalkparks.co.uk/) project, which involved a series of
@@ -55,5 +53,5 @@ These workshops explored how Newcastle's parks should be run in the future,
 having to cope increasingly limited public funding. These engagements eventually
 led into ParkLearn (later renamed to OurPlace), [my main PhD research project](/ourplace).
 
-![A cardboard bench, with notes written on](/assets/img/parksworkshop.jpg)
+![A cardboard bench, with notes written on](/assets/img/parksworkshop.jpg){: .center-image }
 *One of the Let's Talk Parks workshop activities*

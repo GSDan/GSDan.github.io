@@ -110,6 +110,13 @@ $on-laptop:        800px !default;
     display: block;
 }
 
+.right-image
+{
+    float: right;
+    margin-left: 15px;
+    max-width: 45%;
+}
+
 .paper_list {
     list-style: none;
     margin-left:0px;
