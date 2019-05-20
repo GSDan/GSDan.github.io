@@ -1,8 +1,8 @@
 ---
 layout: project
 title: TalkFutures
-bannerImg: /assets/img/talkfutures_banner.PNG
-featureImg: /assets/img/talkfutures_featuredImg.png
+bannerImg: /assets/img/talkfutures_banner.webp
+featureImg: /assets/img/talkfutures_featuredImg.webp
 summary: TalkFutures helps structure and record conversations about how the Red Cross and Red Crescent can adapt to the challenges of the future.
 heroColour: "#E42930"
 github: https://github.com/jawrainey/GabberMobile/tree/TalkFutures

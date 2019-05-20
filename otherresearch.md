@@ -1,8 +1,8 @@
 ---
 layout: project 
 title: Other Research 
-bannerImg: /assets/img/ra_banner.JPG
-featureImg: /assets/img/speeching.png
+bannerImg: /assets/img/ra_banner.webp
+featureImg: /assets/img/speeching.webp
 summary: I've contributed towards several other research projects during my time at Open Lab as a Research Associate and PhD candidate.
 heroColour: "#e0b60b" 
 ---
@@ -44,7 +44,7 @@ participant research workshops designed to evaluate the prototype and explore
 how it could be improved.
 
 ## Coaching
-![Highlighting moments of interest in the Coaching prototype](/assets/img/coaching.png){: .right-image }
+![Highlighting moments of interest in the Coaching prototype](/assets/img/coaching.webp){: .right-image }
 As a Research Associate at Culture Lab, I produced a technology probe called
 'Coaching': a video capture application designed for use by caregivers, parents
 or other gatekeepers. The application users record video and tag sections of
@@ -64,5 +64,5 @@ These workshops explored how Newcastle's parks should be run in the future,
 having to cope increasingly limited public funding. These engagements eventually
 led into ParkLearn (later renamed to OurPlace), [my main PhD research project](/ourplace).
 
-![A cardboard bench, with notes written on](/assets/img/parksworkshop.jpg){: .center-image }
+![A cardboard bench, with notes written on](/assets/img/parksworkshop.webp){: .center-image }
 *One of the Let's Talk Parks workshop activities*

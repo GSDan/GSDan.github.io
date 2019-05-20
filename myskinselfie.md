@@ -1,8 +1,8 @@
 ---
 layout: project 
 title: MySkinSelfie 
-bannerImg: /assets/img/skinselfie_banner.jpg
-featureImg: /assets/img/skinselfie_featureImg.png 
+bannerImg: /assets/img/skinselfie_banner.webp
+featureImg: /assets/img/skinselfie_featureImg.webp 
 summary: MySkinSelfie makes it easier to keep track of how your skin conditions change over time. I developed the platform while I was a Research Associate in Open Lab, Newcastle University.
 heroColour: "#00BCD5" 
 github: https://github.com/GSDan/MySkinSelfie 

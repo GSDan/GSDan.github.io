@@ -4,8 +4,8 @@
 
 layout: project
 title: OurPlace
-bannerImg: /assets/img/ourplace_banner.JPG
-featureImg: /assets/img/ourplace_featureImg.png
+bannerImg: /assets/img/ourplace_banner.webp
+featureImg: /assets/img/ourplace_featureImg.webp
 summary: OurPlace is the main project of my PhD. It's a mobile learning platform, designed to support communities in creating and sharing interactive learning activities about the places they care most about.
 heroColour: "#8BC04C"
 github: https://github.com/GSDan/OurPlace
@@ -65,7 +65,7 @@ with children in different communities sharing and comparing their ways of life,
 beliefs and values. We hope that this work will be published at CHI 2020.
 
 ![Schoolchildren design OurPlace activities using a jigsaw
-activity](/assets/img/ourplace_jigsaw.JPG) *Schoolchildren use a custom jigsaw
+activity](/assets/img/ourplace_jigsaw.webp) *Schoolchildren use a custom jigsaw
 to prepare paper prototypes while designing their OurPlace activities*
 
 
