@@ -13,6 +13,8 @@ google: https://play.google.com/store/apps/details?id=com.park.learn
 apple: https://itunes.apple.com/us/app/ourplace/id1378985779?ls=1&mt=8
 ---
 
+### **_How can mobile learning technologies better surface and utilise the civic value of places and empower the communities which give them meaning?_**
+
 ## About the App
 
 OurPlace is a mobile platform which supports the creation, sharing and

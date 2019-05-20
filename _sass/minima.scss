@@ -145,6 +145,11 @@ $on-laptop:        800px !default;
     color: white;
 }
 
+.project_blurb {
+    padding: 0px 10px;
+    text-align: justify;
+}
+
 .project_title {
     position: absolute;
     bottom: 0px;
@@ -303,7 +308,7 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #00BCD5 url(img/link.png) no-repeat center 20%;
+    background: #00BCD5;
     background-size:50px 50px;
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
