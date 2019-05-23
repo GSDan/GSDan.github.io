@@ -12,22 +12,22 @@ apple: https://itunes.apple.com/vc/app/myskinselfie/id1096043432?mt=8
 
 ## About the App
 
-Developed by Newcastle University's Openlab in collaboration with Consultant
-Dermatologist Dr Philip Hampton, MySkinSelfie makes it easier to keep track of
-how your skin conditions change over time.
+I developed MySkinSelfie in collaboration with Consultant Dermatologist Dr
+Philip Hampton. The app makes it easier for patients living with skin conditions
+to keep track of how how they change over time, by assisting in taking
+consistent photographs of their skin through an overlay system. 
 
-By helping you take consistent photographs of your skin through an overlay
-system, MySkinSelfie can be used to ease the task of keeping track of the
-progress of your skin conditions. Keep your photos organised by date, condition
-type and location on your body, tracking how they change over time through notes
-and the handy comparison tool. Taken images are stored in the cloud over a
-secure connection, meaning you can access them across multiple devices for years
-to come - perfect for long-term condition tracking.
+Photos are organised by date, condition type and location on the body, making it
+easier to track how they change over time through notes and a side-by-side
+comparison tool. Taken images are stored in the cloud over a secure connection,
+meaning patients can access them across multiple devices over periods of months
+or years - perfect for long-term condition tracking.
 
-All uploaded files are encrypted, meaning that you can be safe in the knowledge
-that no-one will get their hands on your sensitive images. Photos are kept out
-of your device's default image gallery and you even have the option to lock the
-application behind a PIN, preventing any potential embarrassment.
+All uploaded files are encrypted, meaning that patients can be safe in the
+knowledge that no-one will get their hands on their sensitive images. Photos
+deliberately kept out of your device's default image gallery in order to avoid
+potential embarrassment, and users even have the option to lock the application
+or individual photo albums behind a PIN.
 
 The mobile applications were developed in Xamarin Forms, with the REST server
 running Web API 2.0. Because the whole project is written in C#, each component
@@ -43,7 +43,9 @@ both the patients themselves and the UK's underfunded National Health Service.
 The application was deployed within several NHS practices within the North of
 England, with it being recommended to patients living with applicable skin
 conditions. As well as an ongoing study within the NHS, several evaluations have
-been undertaken and published.
+been undertaken and published. These evaluations showed that patients not only
+found MySkinSelfie easy to use, but also genuinely useful for tracking the
+progress of their skin conditions over time.
 
 ## Resulting Publications
 

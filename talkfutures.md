@@ -29,12 +29,13 @@ IFRC members across the globe.
 
 We produced the TalkFutures application in Xamarin Android and Xamarin iOS, as
 part of a small team based in the Federation's office in Geneva. Based on the
-existing open-source project Gabber (developed by Jay Rainey at Open Lab),
-TalkFutures makes it easy for participants to contribute semi-structured,
-qualitative audio data (e.g. in the form of interviews). The application also
-makes it easy for participants to control others' access to their contributed
-audio recordings, with participants within a conversation being able to withdraw
-their consent, even after it has been uploaded.
+existing open-source project Gabber (developed by [Jay
+Rainey](https://jawrainey.me/) at Open Lab), TalkFutures makes it easy for
+participants to contribute semi-structured, qualitative audio data (e.g. in the
+form of interviews). The application also makes it easy for participants to
+control others' access to their contributed audio recordings, with participants
+within a conversation being able to withdraw their consent, even after it has
+been uploaded.
 
 Once uploaded, audio recordings are made available on the TalkFutures website,
 where they can be filtered by discussion topic or even which National Society

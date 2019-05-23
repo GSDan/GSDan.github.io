@@ -60,6 +60,19 @@ $on-laptop:        800px !default;
     margin-bottom: 16px;
 }
 
+.subsection-title {
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 12px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .site-title {
     text-align: center;
     width: 100%;
@@ -331,13 +344,19 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
     font-weight:bold;
     font-family: 'Oswald', sans-serif;
     font-weight:normal!important;
-    top:32%;
+    top:25%;
     color:white;
     opacity:0;
     filter:alpha(opacity=0);/*For older IE*/
     transform:translateY(-20px);
     transition:all .3s;
 }
+
+.rig-prompt {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
 #rig li:hover .rig-text {
     transform:translateY(0px);
     opacity:1;

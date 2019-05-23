@@ -53,16 +53,24 @@ in creating their own bespoke, interactive resources to share their values and
 knowledge with others. Over the course of the project we ran small design
 workshops with park rangers and teachers, mixes of short and longitudinal
 studies with local schools and ethnographic studies with local heritage groups.
-I've organised open invitation workshops and events for community heritage
-enthusiasts, with the largest OurPlace workshop attracting nearly 50 attendees
-from around the North of England. 
+To introduce communities to the application, I organised open-invitation
+workshops and events for community heritage enthusiasts, with the largest
+OurPlace workshop attracting nearly 50 attendees from around the North of
+England. These workshops proved to be both popular and successful, with multiple
+community groups going on to use the application independently and further
+workshop engagements being requested.
 
-The app has been used by community members and schools in contexts ranging from
-local parks to lighthouses, and from zoos to castles. Much of the research to
-date is covered in detail in the publications listed below. We are currently
-exploring how technologies like OurPlace can help facilitate cultural exchanges,
-with children in different communities sharing and comparing their ways of life,
-beliefs and values. We hope that this work will be published at CHI 2020.
+OurPlace has supported teachers, students and community experts in creating and
+sharing rich, digital experiences in authentic settings, without the need for
+large budgets or technical expertise. The app has been used by dozens of
+community groups and hundreds of students across nine different schools, in
+contexts ranging from local parks to lighthouses, and from zoos to castles. Much
+of the research to date is covered in detail in the publications listed below.
+
+We are currently exploring how technologies like OurPlace can help facilitate
+cultural exchanges, with children in different communities sharing and comparing
+their ways of life, beliefs and values. We hope that this work will be published
+at CHI 2020.
 
 ![Schoolchildren design OurPlace activities using a jigsaw
 activity](/assets/img/ourplace_jigsaw.webp) *Schoolchildren use a custom jigsaw
