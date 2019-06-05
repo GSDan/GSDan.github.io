@@ -261,6 +261,15 @@ PROFILE BUTTONS FROM https://codepen.io/philhoyt/pen/wCIGc
   display: inline-block;
 }
 
+.gallery {
+    text-align: center;
+}
+
+.gallery-image {
+    max-width: 30%;
+    padding: 3px;
+}
+
 /*
 FINISH
 PROFILE BUTTONS
@@ -289,6 +298,16 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
     margin:0;
     padding:1px;
 }
+
+#rig-wide li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:100%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:1px;
+}
         
 /* The wrapper for each item */
 .rig-cell {
@@ -300,12 +319,16 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
 }
         
 /* If have the image layer */
-.rig-img {
+.rig-img, .rig-img-wide, .rig-img-small {
     display:block;
     width: 100%;
     border:none;
     transform:scale(1);
     transition:all 0.6s;
+}
+
+.rig-img-wide-small {
+    display: none;
 }
 
 #rig li:hover .rig-img {
@@ -374,6 +397,10 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
     #rig li {
         width:50%;
     }
+
+    #rig-wide li {
+        width:100%;
+    }
 }
 
 @media(max-width: 750px) {
@@ -394,6 +421,14 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
 
     #rig li {
         width:100%;
+    }
+
+    .rig-img-wide {
+        display: none;
+    }
+
+    .rig-img-wide-small {
+        display:block;
     }
 
     .rig-text {
@@ -441,6 +476,11 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
 
     .project_title h1 {
         font-size: 2.5em;
+    }
+
+    .gallery-image {
+        max-width: 48%;
+        padding: 2px;
     }
 }
 
