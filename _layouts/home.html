@@ -31,6 +31,22 @@ layout: default
     </div>
 
     <div class="section-title">
+        Latest Blog Post
+    </div>
+
+    <div class="blog_preview">
+        {% if site.posts.first.image %}
+            <img class="blog_featureImg_small" src="/assets/img/posts/{{site.posts.first.image}}">
+        {% endif %}
+        <h3>{{site.posts.first.title}}</h3>
+        <p>{{site.posts.first.excerpt}}</p>
+        <a class="readMore" href="{{ site.posts.first.url }}" >Read more...</a>
+        <div class="pill_list">
+            <a class="btn pill" href="/blog" target="_blank">View More Posts</a>
+        </div>
+    </div>
+
+    <div class="section-title">
         My Experience
     </div>
 

@@ -90,6 +90,27 @@ $on-laptop:        800px !default;
     margin-bottom: 10px;
 }
 
+.blog_preview {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog_preview h3 {
+    font-size: 1.5em;
+}
+
+.blog_featureImg {
+    float: right;
+    max-width: 20%;
+    margin: 10px;
+}
+
+.blog_featureImg_small {
+    float: right;
+    max-width: 15%;
+    margin: 10px;
+}
+
 #profile_img{
     width: 20%;
     vertical-align:middle;
