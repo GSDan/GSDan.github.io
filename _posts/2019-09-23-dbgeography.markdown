@@ -1,5 +1,5 @@
 ---
-layout: blogPost
+layout: post
 title:  "An Intro to DbGeography: the Importance of Looking Before You Leap"
 date:   2019-09-23 13:54:45 +0100
 image: location.png

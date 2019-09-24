@@ -74,8 +74,28 @@ $on-laptop:        800px !default;
 }
 
 .site-title {
-    text-align: center;
-    width: 100%;
+    float: left;
+    width: 60%;
+}
+
+.site-nav, .site-nav:visited {
+    text-align: right;
+    
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    float: left;
+}
+
+.site-nav a, .site-nav a:visited{
+    color: #424242;
 }
 
 .site-subtitle, .site-subtitle:visited {
@@ -95,19 +115,20 @@ $on-laptop:        800px !default;
     margin-bottom: 10px;
 }
 
-.blog_preview h3 {
-    font-size: 1.5em;
+.blog_preview h3, .blog_preview h3 a, .blog_preview h3 a:visited{
+    font-size: 1.2em;
+    color: #424242;
 }
 
 .blog_featureImg {
     float: right;
-    max-width: 20%;
+    width: 22%;
     margin: 10px;
 }
 
 .blog_featureImg_small {
     float: right;
-    max-width: 15%;
+    max-width: 18%;
     margin: 10px;
 }
 
@@ -406,7 +427,7 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
     opacity:1;
 }
 
-@media (max-width: 9000px) {
+@media (max-width: 900px) {
     
     #profile_img{
         width: 20%;
@@ -422,6 +443,30 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
     #rig-wide li {
         width:100%;
     }
+
+    .site-title {
+        text-align: center;
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .site-nav, .site-nav:visited {
+        align-content: center;
+        font-size: 18px;
+        list-style-type: none;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        width: 95%;
+        margin: 10px auto 12px auto;
+        display: block;
+    }
+    
+    .site-nav li {
+        list-style-type: none;
+        display: inline-block;
+        float: none;
+    }
 }
 
 @media(max-width: 750px) {
@@ -430,14 +475,33 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
         font-size:17px;
         padding:0 22px;
     }
+
+    .blog_featureImg_small {
+        float: none;
+        margin: 10px;
+        max-height: 100px;
+        width:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 670px) {
 
     #profile_img{
-        width: 18%;
+        width: 30%;
+        padding: 0 30% 5% 30%;
         overflow:hidden;
-        float:left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #blurb_text {
+        width: 95%;
+        display: inline-block;
+        text-align: left;
     }
 
     #rig li {
@@ -457,24 +521,29 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
         font-size:18px;
         padding:0 25px;
     }
-}
 
-@media (max-width: 550px) {
-
-    #profile_img{
-        width: 40%;
-        padding: 0 30% 5% 30%;
-        overflow:hidden;
+    .blog_featureImg {
+        float: none;
+        margin: 10px;
+        max-height: 200px;
+        width:auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+}
 
-    #blurb_text {
-        width: 95%;
-        display: inline-block;
-        text-align: left;
+@media (max-width: 600px) {
+    .site-nav {
+        background-color: transparent;
+        border: none;
+        top: 0px;
+        right: 0px;
+        line-height: 24px;
     }
+}
+
+@media (max-width: 550px) {
 
     .btn.pill{
         width:70%;
@@ -503,6 +572,10 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
         max-width: 48%;
         padding: 2px;
     }
+
+    .site-title {
+        font-size: 21px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -510,6 +583,10 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
         top: 19%;
         font-size:16px;
         padding:0 18px;
+    }
+
+    .site-title {
+        font-size: 20px;
     }
 }
 

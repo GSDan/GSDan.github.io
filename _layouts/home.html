@@ -38,11 +38,10 @@ layout: default
         {% if site.posts.first.image %}
             <img class="blog_featureImg_small" src="/assets/img/posts/{{site.posts.first.image}}">
         {% endif %}
-        <h3>{{site.posts.first.title}}</h3>
+        <h3><a href="{{ site.posts.first.url }}">{{site.posts.first.title}}</a></h3>
         <p>{{site.posts.first.excerpt}}</p>
-        <a class="readMore" href="{{ site.posts.first.url }}" >Read more...</a>
         <div class="pill_list">
-            <a class="btn pill" href="/blog" target="_blank">View More Posts</a>
+            <a class="btn pill" href="{{ site.posts.first.url }}">Read more</a>
         </div>
     </div>
 
