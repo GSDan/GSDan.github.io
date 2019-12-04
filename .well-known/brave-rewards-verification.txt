@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: danrichardson.me
+Token: 3697501e4d76b684d22da1101e0e723932fa9a79e6f4853919f215a73a65d2b5
