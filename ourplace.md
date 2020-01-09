@@ -81,20 +81,26 @@ to prepare paper prototypes while designing their OurPlace activities*
 
 <ul class="paper_list">
         <li>
-            <p class="paper_title">Exploring Public Places As Infrastructures for Civic M-Learning</p>
-            <p class="paper_detail">Dan Richardson, Clara Crivellaro, Ahmed Kharrufa, Kyle Montague, Patrick Olivier</p>
-            <p class="paper_detail">2017 | International Conference on Communities and Technologies | <a
-                    href="https://doi.org/10.1145/3083671.3083678" target="_blank">DOI</a> | <a
-                    href="/assets/pdf/ExploringPublicPlacesAsInfrastructuresForCivicMLearning.pdf"
-                    target="_blank">PDF</a></p>
+            <p class="paper_title">We are the Greatest Showmen: Configuring a
+            Framework for Project-Based Mobile Learning</p>
+            <p class="paper_detail"><em>Dan Richardson</em>, Ahmed Kharrufa</p>
+            <p class="paper_detail">2020 | CHI Conference on Human Factors in
+            Computing Systems | <a href="https://doi.org/10.1145/3313831.3376650" target="_blank">DOI</a> | <a
+            href="/assets/pdf/We_are_the_Greatest_Showmen__CC.pdf" target="_blank">PDF</a></p>
         </li>
-
         <li>
             <p class="paper_title">Parklearn: Creating, Sharing and Engaging with Place-Based Activities for Seamless
-                Mobile Learning</p>
-            <p class="paper_detail">Dan Richardson, Pradthana Jarusriboonchai, Kyle Montague, Ahmed Kharrufa</p>
+            Mobile Learning</p>
+            <p class="paper_detail"><em>Dan Richardson</em>, Pradthana Jarusriboonchai, Kyle Montague, Ahmed Kharrufa</p>
             <p class="paper_detail">2018 | International Conference on Human-Computer Interaction with Mobile Devices
-                and Services | <a href="https://doi.org/10.1145/3229434.3229462" target="_blank">DOI</a> | <a
-                    href="/assets/pdf/ParkLearnCreatingSharingEngagingwithPlace.pdf" target="_blank">PDF</a></p>
+            and Services | <a href="https://doi.org/10.1145/3229434.3229462" target="_blank">DOI</a> | <a
+            href="/assets/pdf/ParkLearnCreatingSharingEngagingwithPlace.pdf" target="_blank">PDF</a></p>
+        </li>
+        <li>
+            <p class="paper_title">Exploring Public Places As Infrastructures for Civic M-Learning</p>
+            <p class="paper_detail"><em>Dan Richardson</em>, Clara Crivellaro, Ahmed Kharrufa, Kyle Montague, Patrick Olivier</p>
+            <p class="paper_detail">2017 | International Conference on Communities and Technologies | <a
+            href="https://doi.org/10.1145/3083671.3083678" target="_blank">DOI</a> | <a
+            href="/assets/pdf/ExploringPublicPlacesAsInfrastructuresForCivicMLearning.pdf" target="_blank">PDF</a></p>
         </li>
     </ul>

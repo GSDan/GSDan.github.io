@@ -183,15 +183,20 @@ $on-laptop:        800px !default;
 
 .paper_title {
     font-weight: bold;
-    font-style: italic;
-    font-size: 0.9em;
-    color: #545454;
+    font-size: 1em;
+    color: #424242;
     margin-bottom: 5px;
 }
 
 .paper_detail {
     margin-bottom: 5px;
     font-size: 0.8em;
+}
+
+.paper_detail em {
+    font-weight: bold;
+    font-style: normal;
+    color: #424242;
 }
 
 .banner_container {
@@ -274,10 +279,10 @@ PROFILE BUTTONS FROM https://codepen.io/philhoyt/pen/wCIGc
 .btn{
     text-decoration:none;
 	color: #fdfdfd;
-	font-size:12px;
-	font-weight:bold;
+	font-size:13px;
 	padding:0 15px;
-	line-height:32px;
+    line-height:32px;
+    font-size: 14px;
 	height: auto;
 	display:inline-block;
 	text-align:center;
@@ -285,7 +290,8 @@ PROFILE BUTTONS FROM https://codepen.io/philhoyt/pen/wCIGc
 }
 
 .btn:hover{
-	background-color:#6ad4fc;
+    background-color:#6ad4fc;
+    color:#fdfdfd;
 }
 
 .btn.round{
@@ -299,7 +305,6 @@ PROFILE BUTTONS FROM https://codepen.io/philhoyt/pen/wCIGc
   -moz-border-radius: 16px;
   border-radius: 16px;
   width:21%;
-  margin: 0, auto;
   display: inline-block;
 }
 
@@ -427,6 +432,14 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
     opacity:1;
 }
 
+@media(max-width: 940px)
+{
+    .btn.pill{
+        width: 33%;
+        margin: 5px;
+    }
+}
+
 @media (max-width: 900px) {
     
     #profile_img{
@@ -470,6 +483,7 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
 }
 
 @media(max-width: 750px) {
+
     .rig-text {
         top: 16%;
         font-size:17px;
@@ -488,6 +502,10 @@ http://www.menucool.com/ui/responsive-image-grid-with-hover-effect
 }
 
 @media (max-width: 670px) {
+
+    .btn.pill{
+        width: 40%;
+    }
 
     #profile_img{
         width: 30%;
