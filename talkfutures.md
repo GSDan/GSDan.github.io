@@ -44,4 +44,14 @@ members from 86 different National Societies contributed recordings using the ap
 
 ## Resulting Publications
 
-We are hoping to publish our work on TalkFutures at upcoming academic venues.
+<ul class="paper_list">
+  <li>
+    <p class="paper_title">TalkFutures: Supporting Qualitative Practices in Distributed Community Engagements</p>
+    <p class="paper_detail">Jay Rainey, Juan Carlos Alvarez de la Vega, <em>Dan Richardson</em>, 
+      Daniel Lambton-Howard, Sara Armouch, Tom Bartindale, Shaun Hazeldine, Pamela Briggs, 
+      Patrick Olivier, Kyle Montague</p>
+    <p class="paper_detail">2020 | Designing Interactive Systems | <a
+      href="https://doi.org/10.1145/3357236.3395531" target="_blank">DOI</a> | <a
+      href="https://dl.acm.org/doi/pdf/10.1145/3357236.3395531" target="_blank">PDF</a></p>
+  </li>
+</ul>
