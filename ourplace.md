@@ -1,5 +1,7 @@
 ---
+
 # Feel free to add content and custom Front Matter to this file.
+
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: project
@@ -36,8 +38,8 @@ codes which can be printed and launch the activity when scanned. Users can also
 enter given share codes, or launch activities when nearby the location
 activities have been optionally tagged with.
 
-The 'native' applications were developed in Xamarin Android and Xamarin iOS,
-with the REST server running Web API 2.0 and an ASP.Net website. Because the
+The 'native' applications were developed in Xamarin Android and Xamarin iOS, 
+with the REST server running Web API 2.0 and an ASP. Net website. Because the
 whole project is written in C#, each component can share common code and be
 opened from the same Visual Studio solution. The OurPlace project is
 open-source, and [can be downloaded from my
@@ -67,19 +69,20 @@ community groups and hundreds of students across nine different schools, in
 contexts ranging from local parks to lighthouses, and from zoos to castles. Much
 of the research to date is covered in detail in the publications listed below.
 
-We are currently exploring how technologies like OurPlace can help facilitate
+My final OurPlace study aimed to explore how technologies like OurPlace can help facilitate
 cultural exchanges, with children in different communities sharing and comparing
-their ways of life, beliefs and values. We hope that this work will be published
-at CHI 2020.
+their ways of life, beliefs and values. This work resulted in the production of a framework 
+for the use of mobile technologies within project-based learning in formal education contexts, 
+and was published at CHI 2020.
 
 ![Schoolchildren design OurPlace activities using a jigsaw
 activity](/assets/img/ourplace_jigsaw.webp) *Schoolchildren use a custom jigsaw
 to prepare paper prototypes while designing their OurPlace activities*
 
-
 ## Resulting Publications
 
 <ul class="paper_list">
+
         <li>
             <p class="paper_title">We are the Greatest Showmen: Configuring a
             Framework for Project-Based Mobile Learning</p>
