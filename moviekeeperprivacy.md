@@ -9,7 +9,7 @@ title: MovieKeeper Privacy Policy
 bannerImg: /assets/img/banner.png
 featureImg: /assets/img/Screenshot_1659961280.png
 summary: Important information about MovieKeeper.
-heroColour: "#8BC04C"
+heroColour: "#f24e56"
 ---
 
 
