@@ -6,8 +6,8 @@
 
 layout: project
 title: MovieKeeper Privacy Policy
-bannerImg: /assets/img/ourplace_banner.webp
-featureImg: /assets/img/ourplace_featureImg.webp
+bannerImg: /assets/img/banner.png
+featureImg: /assets/img/Screenshot_1659961280.png
 summary: Important information about MovieKeeper.
 heroColour: "#8BC04C"
 ---
@@ -21,4 +21,4 @@ Your privacy is important to us and we believe you should always know what data 
 - Your information is not and will not be shared with any other external organisation.
 - MovieKeeper uses the eBay API to try and match barcodes with movies. The barcodes you scan are sent to eBay, but none of your identifiable information is sent to them. eBay only see our information.
 - We will not use your email address for marketing purposes. Any emails we do send will related to issues surrounding your account (e.g. forgotten passwords).
-- If you have any other queries please contact me at dan.richardson.gs@gmail.com
+- If you would like to remove your data from the platform, or have any other queries please contact me at dan.richardson.gs@gmail.com
