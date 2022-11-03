@@ -41,7 +41,7 @@ manipulated to support round-robin pairings of participants in speed-dating inte
 ## Paroli's infrastructure
 ![Paroli's system overview](/assets/img/paroli_system.webp)
 
-Paroli is a cloud-based platform which utilises an variety of technologies and archetectures.
+Paroli is a cloud-based platform which utilises an variety of technologies and architectures.
 The open source codebase [is available here](https://gitlab.com/action-lab-aus/phoneconferencing).
 
 ### Firebase Realtime Database (RTDB), Functions, Authentication and Storage
