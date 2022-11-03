@@ -32,7 +32,7 @@ disc format, genre, or their age rating. The profile page offers some fun statis
 library, such as: the total combined running time of all your movies, the average IMDB score,
 and a breakdown of your library by genre.
 
-## MovieKeeper's archetecture
+## MovieKeeper's architecture
 
 The open source codebase for the whole MovieKeeper platform [is available on GitHub](https://github.com/GSDan/MovieKeeper).
 
