@@ -5,7 +5,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: project
-title: MovieKeeper Privacy Policy
+title: MovieKeeper Privacy Policy and Data Deletion Steps
 bannerImg: /assets/img/banner.png
 featureImg: /assets/img/Screenshot_1659961280.png
 summary: Important information about MovieKeeper.
@@ -22,3 +22,7 @@ Your privacy is important to us and we believe you should always know what data 
 - MovieKeeper uses the eBay API to try and match barcodes with movies. The barcodes you scan are sent to eBay, but none of your identifiable information is sent to them. eBay only see our information.
 - We will not use your email address for marketing purposes. Any emails we do send will related to issues surrounding your account (e.g. forgotten passwords).
 - If you would like to remove your data from the platform, or have any other queries please contact me at dan.richardson.gs@gmail.com
+
+# Account and Data Deletion
+
+If you would like for your data to be deleted from the MovieKeeper service, please get in touch by emailing dan.richardson.gs@gmail.com saying you want to be removed from the service. All of your account data will be removed. Barcodes that you have been scanned and associated with movies will not be deleted as they help the service function for other users, but these are not be tied to your information in any way.  
